@@ -99,7 +99,7 @@
 
 
                         <a class="dropdown-item" href="">Riepilogo ricevimenti</a>
-                        <a class="dropdown-item" href=">Ricevimenti in programma</a>
+                        <a class="dropdown-item" href="">Ricevimenti in programma</a>
                         <form action="../LogoutServlet" method="POST" style="display:inline;">
                             <button type="submit" class="dropdown-item">Logout</button>
                         </form>
