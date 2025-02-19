@@ -1,0 +1,12 @@
+.invalid {
+            color: red;
+        }
+        .valid {
+            color: green;
+        }
+        ul {
+            padding-left: 0;
+        }
+        ul li {
+            margin: 5px 0;
+}

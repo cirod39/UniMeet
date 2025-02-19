@@ -1,0 +1,41 @@
+/* Container for search suggestions */
+#searchSuggestions {
+    position: absolute;
+    top: 38px;
+    left: 0;
+    width: 100%;
+    z-index: 1001;
+    background-color: rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(5px);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    max-height: 250px;
+    overflow-y: auto;
+    margin-top: 5px;
+    padding: 0;
+}
+
+/* Base styling of each suggestion item */
+#searchSuggestions .list-group-item {
+    background-color: rgba(255, 255, 255, 0.3);
+    border: none;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 0;
+    color: #000;
+    font-family: Arial, sans-serif;
+    text-shadow: 0 0 3px #fff;
+    transition: background-color 0.2s, text-shadow 0.2s, transform 0.2s;
+}
+
+/* Remove the border on the last item */
+#searchSuggestions .list-group-item:last-child {
+    border-bottom: none;
+}
+
+/* Hover effect: very light turquoise, glow, and slight scale */
+#searchSuggestions .list-group-item:hover {
+    background-color: #ECFCFD;
+    text-shadow: 0 0 6px #fff;
+    transform: scale(1.02);
+    cursor: pointer;
+}

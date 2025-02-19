@@ -1,0 +1,247 @@
+/* ALERT LOGIN */
+.alert {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 10px;
+}
+
+
+
+/* CSS MENU PROFESSORE */
+.right-aligned {
+    position: absolute;
+    top: 35px;
+    right: 90px;
+    display: flex;
+    align-items: center;
+}
+
+.right-aligned .dropdown {
+    margin-left: 10px;
+}
+
+.right-aligned .dropdown-menu {
+    padding-right: 10px;
+}
+
+/* CSS MENU A TENDINA*/
+#studentMenu:active {
+    background-color: rgba(0, 255, 243, 0.9) !important;
+    border-color: rgb(152, 240, 245) !important;
+    color: #000000 !important; /* Colore del testo, puoi cambiarlo se necessario */
+}
+
+#studentMenu:focus {
+    background-color: rgba(0, 255, 243, 0.9) !important;
+    border-color: rgb(152, 240, 245) !important;
+    color: #000000 !important;
+}
+
+#studentMenu:hover {
+    background-color: rgba(0, 255, 243, 0.9) !important;
+    border-color: rgb(152, 240, 245) !important;
+    color: #000000 !important;
+}
+/* CSS PAGINA Registrazione.jsp */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+}
+form .form-control {
+    border: 2px solid #000;
+    border-radius: 8px;
+}
+.headerLine {
+    border-bottom: 2px solid #000000;
+    margin: 0 20px;
+}
+.registration-card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.footer{
+    margin-top:50px;
+}
+.btn-primary {
+    background-color: rgb(152, 240, 245);
+    border: none;
+    color: #000;
+    border-radius: 25px;
+}
+.btn-primary:hover {
+    background-color: rgb(152, 240, 245);
+}
+.btn-danger {
+    background-color: #ff6b6b;
+    border: none;
+    color: white;
+    border-radius: 25px;
+}
+.btn-danger:hover {
+    background-color: #ff4b4b;
+}
+.custom-btn-container {
+    text-align: center;
+    margin-top: 20px;
+}
+.custom-btn-container .btn {
+    width: 60%;
+    margin-bottom: 10px;
+}
+.logo {
+    width: 150px;
+    height: auto;
+}
+.navbar-custom {
+    justify-content: flex-start;
+}
+.navbar-custom .btn {
+    margin-left: 10px;
+    border-radius: 25px;
+}
+.navbar-custom .btn:first-child {
+    margin-left: 0;
+}
+
+/* CSS PAGINA RegistrazioneStudente.jsp */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+}
+.headerLine {
+    border-bottom: 2px solid #000000;
+    margin: 0 20px;
+}
+.registration-card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.btn-primary {
+    background-color: rgb(152, 240, 245); 
+    border: none;
+    color: #000;
+    border-radius: 25px;
+}
+.btn-primary:hover {
+    background-color: rgb(152, 240, 245);
+}
+.btn-danger {
+    background-color: #ff6b6b;
+    border: none;
+    color: white;
+    border-radius: 25px;
+}
+.btn-danger:hover {
+    background-color: #ff4b4b;
+}
+.custom-btn-container {
+    text-align: center;
+    margin-top: 20px;
+}
+.custom-btn-container .btn {
+    width: 60%;
+    margin-bottom: 10px;
+}
+.logo {
+    width: 150px;
+    height: auto;
+}
+.navbar-custom {
+    justify-content: flex-start;
+}
+.navbar-custom .btn {
+    margin-left: 10px;
+    border-radius: 25px;
+}
+.navbar-custom .btn:first-child {
+    margin-left: 0;
+}
+
+/* CSS PAGINA RegistrazioneProfessore.jsp */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+}
+.headerLine {
+    border-bottom: 2px solid #000000;
+    margin: 0 20px;
+}
+.registration-card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.btn-primary {
+    background-color: rgb(152, 240, 245); 
+    border: none;
+    color: #000;
+    border-radius: 25px;
+}
+.btn-primary:hover {
+    background-color: rgb(152, 240, 245); 
+}
+.btn-danger {
+    background-color: #ff6b6b;
+    border: none;
+    color: white;
+    border-radius: 25px;
+}
+.btn-danger:hover {
+    background-color: #ff4b4b;
+}
+.custom-btn-container {
+    text-align: center;
+    margin-top: 20px;
+}
+.custom-btn-container .btn {
+    width: 60%;
+    margin-bottom: 10px;
+}
+.logo {
+    width: 150px;
+    height: auto;
+}
+.navbar-custom {
+    justify-content: flex-start;
+}
+.navbar-custom .btn {
+    margin-left: 10px;
+    border-radius: 25px;
+}
+.navbar-custom .btn:first-child {
+    margin-left: 0;
+}
+
+/* CSS PAGINA MyHome.jsp */
+.logo-container {
+     margin-right: 200px;
+}
+
+.text-container {
+    margin-left: 200px;
+}
+
+.dropdown-menu {
+    border-radius: 8px;
+}
+
+.dropdown-item {
+    border-bottom: 1px solid #ddd;
+}
+
+.dropdown-item:last-child {
+    border-bottom: none;
+}
+
+.dropdown-toggle {
+    border-radius: 8px;
+}

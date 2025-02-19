@@ -1,0 +1,21 @@
+/* Centra il div contenitore e imposta una larghezza più piccola */
+.contenimento {
+    width: 50%;             /* Imposta la larghezza al 50% della pagina */
+    margin: 0 auto;         /* Centra il div orizzontalmente */
+    padding: 20px;          /* Aggiungi un po' di padding interno */
+}
+/* Allinea il testo e aggiusta margini/padding */
+.custom-box {
+    padding: 20px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.1);
+    border-radius: 8px;
+    background-color: #f9f9f9;
+}
+/* Stilizza la textarea */
+.custom-textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}

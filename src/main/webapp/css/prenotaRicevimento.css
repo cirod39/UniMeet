@@ -1,0 +1,108 @@
+#noAvailabilityMessage {
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    color: red;
+    margin-top: 10px;
+    display: none;
+}
+
+#prenotaBtn:disabled {
+    background-color: #6fa9ff;
+    color: white;
+    border: none;
+    cursor: not-allowed;
+}
+.custom-btn-prenota {
+    background-color: rgb(152, 240, 245);
+    border: none;
+    color: #000;
+    border-radius: 25px;
+    padding: 15px 60px;
+    min-width: 220px;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+}
+.custom-btn-prenota:hover {
+    background-color: rgb(139, 238, 243);
+}
+
+.custom-btn-verifica {
+    width: calc(100% + 15px); /* Aggiusta la larghezza per compensare il gap */
+    margin-left: -7.5px; /* Compensa il margine sinistro */
+    margin-right: -7.5px; /* Compensa il margine destro */
+}
+
+.custom-btn-verifica {
+    background-color: #28a745;
+    border: none;
+    color: #fff;
+    border-radius: 8px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+.custom-btn-verifica:hover {
+    background-color: #218838;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+}
+.custom-container {
+    margin-top: 20px;
+}
+.custom-box {
+    background-color: #f8f9fa;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+.custom-select {
+    border: 2px solid #000;
+    border-radius: 8px;
+    padding: 5px;
+    background-color: rgba(240, 255, 254, 0.9);
+}
+
+.custom-textarea {
+    width: calc(100% + 15px); /* Aggiusta la larghezza per includere il gap */
+    margin-left: -7.5px; /* Compensa il margine sinistro */
+    margin-right: -7.5px; /* Compensa il margine destro */
+    border: 2px solid #000;
+    border-radius: 8px;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.custom-textarea {
+    border: 2px solid #000;
+    border-radius: 8px;
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+}
+.note-section {
+    margin-top: 10px;
+    width: 100%;
+}
+.d-flex.gap-2 select {
+    margin-right: 15px;
+}
+
+.fw-bold {
+    font-size: 1.40rem; /* Aumenta la dimensione del testo */
+    text-align: center; /* Centra il testo */
+    margin-bottom: 10px; /* Spaziatura sotto */
+}
+.list-unstyled{
+    font-size: 0.90rem; /* Aumenta la dimensione del testo */
+    text-align: center; /* Centra il testo */
+    margin-bottom: 10px; /* Spaziatura sotto */
+}
+
+.small{
+    font-size: 0.90rem;
+}
