@@ -93,13 +93,13 @@
                         <!-- NUOVO HEADER GESTISCI RICEV-->
                         <a class="dropdown-item" href="#" id="gestisciRicevimenti">Gestisci ricevimenti</a>
                         <div id="submenuRicevimenti" class="custom-submenu" style="display: none;">
-                            <a class="dropdown-item" href="AggiungiRicevimento.jsp">Aggiungi ricevimento</a>
-                            <a class="dropdown-item" href="SelezionaOpzioniModifica.jsp">Modifica ricevimenti</a>
+                            <a class="dropdown-item" href="">Aggiungi ricevimento</a>
+                            <a class="dropdown-item" href="">Modifica ricevimenti</a>
                         </div>
 
 
-                        <a class="dropdown-item" href="RiepilogoRicevimentiProfessore.jsp">Riepilogo ricevimenti</a>
-                        <a class="dropdown-item" href="RicevimentiInProgramma.jsp">Ricevimenti in programma</a>
+                        <a class="dropdown-item" href="">Riepilogo ricevimenti</a>
+                        <a class="dropdown-item" href=">Ricevimenti in programma</a>
                         <form action="../LogoutServlet" method="POST" style="display:inline;">
                             <button type="submit" class="dropdown-item">Logout</button>
                         </form>
